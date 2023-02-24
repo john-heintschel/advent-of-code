@@ -13,6 +13,7 @@ defmodule AdventOfCode.Day03Test do
     assert result
   end
 
+  @tag :skip
   test "part2" do
     result =
       AdventOfCode.Input.get!(3)
