@@ -5,16 +5,23 @@ defmodule AdventOfCode.Day06Test do
 
   @tag :skip
   test "part1" do
-    input = nil
-    result = part1(input)
+    IO.puts("\n")
+
+    result =
+      AdventOfCode.Input.get!(6)
+      |> part1
+      |> IO.inspect()
 
     assert result
   end
 
-  @tag :skip
   test "part2" do
-    input = nil
-    result = part2(input)
+    IO.puts("\n")
+
+    result =
+      AdventOfCode.Input.get!(6)
+      |> part2
+      |> IO.inspect()
 
     assert result
   end
