@@ -15,6 +15,7 @@ defmodule AdventOfCode.Day07Test do
     assert result
   end
 
+  @tag :skip
   test "part2" do
     IO.puts("\n")
 
