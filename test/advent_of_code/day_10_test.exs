@@ -5,16 +5,21 @@ defmodule AdventOfCode.Day10Test do
 
   @tag :skip
   test "part1" do
-    input = nil
-    result = part1(input)
+    result =
+      AdventOfCode.Input.get!(10, 2022)
+      |> part1
+      |> IO.inspect()
 
     assert result
   end
 
-  @tag :skip
   test "part2" do
-    input = nil
-    result = part2(input)
+    IO.puts("\n")
+
+    result =
+      AdventOfCode.Input.get!(10, 2022)
+      |> part2
+      |> IO.inspect()
 
     assert result
   end
